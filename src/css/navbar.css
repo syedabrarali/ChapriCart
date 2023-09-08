@@ -1,0 +1,34 @@
+.navbar-ctr {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 25px;
+    background-color: beige;
+    height: 75px;
+    grid-area: nav;
+}
+
+
+.hm, .prd, .bk, .gm, .cl {
+    align-self: center;
+}
+.hm,.prd{
+    flex-basis: 100px;
+}
+
+.gm, .cl, .bk {
+    flex-basis: 75px;
+}
+
+
+.hm {
+    padding-left: 30px;
+}
+
+.chapricart {
+    color: #800000;
+    padding-left: 25px;
+    align-self: center;
+}
+

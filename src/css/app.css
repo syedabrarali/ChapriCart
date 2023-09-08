@@ -1,0 +1,20 @@
+.main-ctr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 4px black;
+
+}
+
+.label1 {
+    flex-basis: 50px;
+}
+
+.appLink {
+    color: black;
+}
+
+.appLink:hover {
+    color: blueviolet;
+}

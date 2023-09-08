@@ -1,0 +1,10 @@
+.book-ctr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label2 {
+    flex-basis: 40px;
+}

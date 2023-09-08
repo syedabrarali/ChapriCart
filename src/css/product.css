@@ -1,0 +1,36 @@
+.product-ctr, .mobile-ctr  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 5px;
+
+}
+
+.mobile-ctr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pr-list {
+    flex-basis: 30px;
+    list-style-type: none;
+}
+
+.pr-no-in {
+    width: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.pr-plus {
+    margin-left: 20px;
+}
+
+.pr-minus {
+    margin-left: 2px;
+}
+
